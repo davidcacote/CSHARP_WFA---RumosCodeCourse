@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WinApp.ExercíciosPOO;
 
 namespace WinApp
 {
@@ -146,6 +147,13 @@ namespace WinApp
         private void ficheirosToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frmFicheiros mdiapp = new frmFicheiros();
+            mdiapp.MdiParent = this;
+            mdiapp.Show();
+        }
+
+        private void empregadosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmInserirEmpregadoV1 mdiapp = new frmInserirEmpregadoV1();
             mdiapp.MdiParent = this;
             mdiapp.Show();
         }

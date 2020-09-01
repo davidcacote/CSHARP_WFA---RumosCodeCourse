@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Util", "..\Util\Util.csproj
 EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup_WinApp", "..\Setup_WinApp\Setup_WinApp.vdproj", "{458221CF-93CA-462B-8A4D-13651305EC96}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POO", "..\POO\POO.csproj", "{EE0FC752-CD20-4DA0-89BD-3A42919188FA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POO", "..\POO\POO.csproj", "{EDE26915-2251-4016-B49E-51A49EC82F06}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,10 +27,10 @@ Global
 		{92650867-5022-4D48-8927-A7627E9F7338}.Release|Any CPU.Build.0 = Release|Any CPU
 		{458221CF-93CA-462B-8A4D-13651305EC96}.Debug|Any CPU.ActiveCfg = Debug
 		{458221CF-93CA-462B-8A4D-13651305EC96}.Release|Any CPU.ActiveCfg = Release
-		{EE0FC752-CD20-4DA0-89BD-3A42919188FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EE0FC752-CD20-4DA0-89BD-3A42919188FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EE0FC752-CD20-4DA0-89BD-3A42919188FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EE0FC752-CD20-4DA0-89BD-3A42919188FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDE26915-2251-4016-B49E-51A49EC82F06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDE26915-2251-4016-B49E-51A49EC82F06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDE26915-2251-4016-B49E-51A49EC82F06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDE26915-2251-4016-B49E-51A49EC82F06}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

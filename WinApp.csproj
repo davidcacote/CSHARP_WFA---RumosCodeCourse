@@ -78,6 +78,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ExercíciosPOO\frmInserirEmpregadoV1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExercíciosPOO\frmInserirEmpregadoV1.Designer.cs">
+      <DependentUpon>frmInserirEmpregadoV1.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmArvore.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -177,6 +183,9 @@
     <Compile Include="global.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ExercíciosPOO\frmInserirEmpregadoV1.resx">
+      <DependentUpon>frmInserirEmpregadoV1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmArvore.resx">
       <DependentUpon>frmArvore.cs</DependentUpon>
     </EmbeddedResource>
@@ -249,6 +258,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\POO\POO.csproj">
+      <Project>{ede26915-2251-4016-b49e-51a49ec82f06}</Project>
+      <Name>POO</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Util\Util.csproj">
       <Project>{92650867-5022-4d48-8927-a7627e9f7338}</Project>
       <Name>Util</Name>
@@ -260,6 +273,9 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

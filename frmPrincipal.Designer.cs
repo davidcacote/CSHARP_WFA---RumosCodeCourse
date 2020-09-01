@@ -32,6 +32,7 @@
             this.ficheiroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exemplosToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.empregadosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exemplosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cumprimentosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.fahnToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -48,13 +49,13 @@
             this.hobbiesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.hobbiesToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.meusHobbiesToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.ficheirosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.janelaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cascadaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.horzontalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.verticalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.hobbiesToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.meusHobbiesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ficheirosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -63,8 +64,8 @@
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.ficheiroToolStripMenuItem,
-            this.exemplosToolStripMenuItem1,
             this.exemplosToolStripMenuItem,
+            this.exemplosToolStripMenuItem1,
             this.janelaToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
@@ -90,9 +91,18 @@
             // 
             // exemplosToolStripMenuItem1
             // 
+            this.exemplosToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.empregadosToolStripMenuItem});
             this.exemplosToolStripMenuItem1.Name = "exemplosToolStripMenuItem1";
-            this.exemplosToolStripMenuItem1.Size = new System.Drawing.Size(87, 24);
-            this.exemplosToolStripMenuItem1.Text = "Exemplos";
+            this.exemplosToolStripMenuItem1.Size = new System.Drawing.Size(188, 24);
+            this.exemplosToolStripMenuItem1.Text = "Exercicio Complexo OOP";
+            // 
+            // empregadosToolStripMenuItem
+            // 
+            this.empregadosToolStripMenuItem.Name = "empregadosToolStripMenuItem";
+            this.empregadosToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.empregadosToolStripMenuItem.Text = "Empregados";
+            this.empregadosToolStripMenuItem.Click += new System.EventHandler(this.empregadosToolStripMenuItem_Click);
             // 
             // exemplosToolStripMenuItem
             // 
@@ -109,8 +119,8 @@
             this.hobbiesToolStripMenuItem,
             this.ficheirosToolStripMenuItem});
             this.exemplosToolStripMenuItem.Name = "exemplosToolStripMenuItem";
-            this.exemplosToolStripMenuItem.Size = new System.Drawing.Size(88, 24);
-            this.exemplosToolStripMenuItem.Text = "Exercícios";
+            this.exemplosToolStripMenuItem.Size = new System.Drawing.Size(144, 24);
+            this.exemplosToolStripMenuItem.Text = "Exercícios Simples";
             // 
             // cumprimentosToolStripMenuItem
             // 
@@ -223,6 +233,13 @@
             this.meusHobbiesToolStripMenuItem1.Text = "Meus Hobbies";
             this.meusHobbiesToolStripMenuItem1.Click += new System.EventHandler(this.meusHobbiesToolStripMenuItem1_Click);
             // 
+            // ficheirosToolStripMenuItem
+            // 
+            this.ficheirosToolStripMenuItem.Name = "ficheirosToolStripMenuItem";
+            this.ficheirosToolStripMenuItem.Size = new System.Drawing.Size(246, 26);
+            this.ficheirosToolStripMenuItem.Text = "Ficheiros";
+            this.ficheirosToolStripMenuItem.Click += new System.EventHandler(this.ficheirosToolStripMenuItem_Click);
+            // 
             // janelaToolStripMenuItem
             // 
             this.janelaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -265,13 +282,6 @@
             this.meusHobbiesToolStripMenuItem.Name = "meusHobbiesToolStripMenuItem";
             this.meusHobbiesToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.meusHobbiesToolStripMenuItem.Text = "Meus Hobbies";
-            // 
-            // ficheirosToolStripMenuItem
-            // 
-            this.ficheirosToolStripMenuItem.Name = "ficheirosToolStripMenuItem";
-            this.ficheirosToolStripMenuItem.Size = new System.Drawing.Size(246, 26);
-            this.ficheirosToolStripMenuItem.Text = "Ficheiros";
-            this.ficheirosToolStripMenuItem.Click += new System.EventHandler(this.ficheirosToolStripMenuItem_Click);
             // 
             // frmPrincipal
             // 
@@ -324,5 +334,6 @@
         private System.Windows.Forms.ToolStripMenuItem hobbiesToolStripMenuItem2;
         private System.Windows.Forms.ToolStripMenuItem meusHobbiesToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem ficheirosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem empregadosToolStripMenuItem;
     }
 }
