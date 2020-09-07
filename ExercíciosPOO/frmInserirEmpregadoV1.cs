@@ -53,6 +53,11 @@ namespace WinApp.ExercíciosPOO
             date_picker.Value = DateAndTime.DateValue("February 24, 1987");
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            var lista = POO.Empregado.ImprimeDados();
+            richTextBox1.Text = lista;
+        }
 
         private void Messbox()
         {

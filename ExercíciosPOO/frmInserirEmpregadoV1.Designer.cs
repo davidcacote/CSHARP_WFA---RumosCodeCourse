@@ -142,12 +142,13 @@
             // button1
             // 
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(342, 214);
+            this.button1.Location = new System.Drawing.Point(521, 214);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(159, 32);
             this.button1.TabIndex = 15;
             this.button1.Text = "Só Nome e Salario";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // tabControl1
             // 
@@ -156,7 +157,7 @@
             this.tabControl1.Location = new System.Drawing.Point(12, 12);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(515, 282);
+            this.tabControl1.Size = new System.Drawing.Size(694, 282);
             this.tabControl1.TabIndex = 16;
             // 
             // tabPage1
@@ -173,7 +174,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 25);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(507, 253);
+            this.tabPage1.Size = new System.Drawing.Size(686, 253);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Inserir Empregado";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -186,7 +187,7 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 25);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(507, 253);
+            this.tabPage2.Size = new System.Drawing.Size(686, 253);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Verificar Banco de Dados";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -195,7 +196,7 @@
             // 
             this.richTextBox1.Location = new System.Drawing.Point(3, 6);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(498, 192);
+            this.richTextBox1.Size = new System.Drawing.Size(677, 192);
             this.richTextBox1.TabIndex = 16;
             this.richTextBox1.Text = "";
             // 
@@ -203,7 +204,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(539, 307);
+            this.ClientSize = new System.Drawing.Size(718, 307);
             this.Controls.Add(this.tabControl1);
             this.Name = "frmInserirEmpregadoV1";
             this.ShowIcon = false;
