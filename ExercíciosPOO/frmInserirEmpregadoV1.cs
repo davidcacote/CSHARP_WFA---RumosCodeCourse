@@ -18,7 +18,7 @@ namespace WinApp.ExercíciosPOO
         private Empregado empregado;
         private string nome, departamento;
         private DateTime datanascimento;
-        private double salario;
+        private decimal salario;
 
         public frmInserirEmpregadoV1()
         {
@@ -31,7 +31,7 @@ namespace WinApp.ExercíciosPOO
             nome = txt_box1.Text;
             datanascimento = date_picker.Value;
             departamento = txt_box2.Text;
-            salario = Convert.ToDouble(txt_box3.Text);
+            salario = Convert.ToDecimal(txt_box3.Text);
 
             empregado = new Empregado(nome, datanascimento, departamento, salario);
 
